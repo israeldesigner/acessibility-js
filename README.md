@@ -53,3 +53,6 @@ Inserir html dentro da tag body como primeiro elemento filho
 * [SASS] (http://sass-lang.com/)
 * [Gulp.js] (http://gulpjs.com/)
 * [Javascript] (https://www.javascript.com/)
+
+
+- Instalar node.js, gulp-cli instalar todas as dependências npm install e depois rodar gulp 
