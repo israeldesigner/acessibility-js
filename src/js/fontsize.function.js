@@ -6,13 +6,10 @@ const addAcess = () =>{
 }
 
 const getComputedFont = (seletorAcessibility) =>{
-
     let sizeFont = window.getComputedStyle(seletorAcessibility, null).getPropertyValue('font-size');
     return parseFloat(sizeFont);
 }
 
-let cookieFontSize = getCookie('font-size');
-console.log(cookieFontSize);
 const changeSizeFonts = (seletorAcessibility, aumentar, normal) => {
 
     for (let i = 0; i < seletorAcessibility.length; i++) {
@@ -31,7 +28,6 @@ const changeSizeFonts = (seletorAcessibility, aumentar, normal) => {
             }
             
             element.style.fontSize = sizeFontCur.toString() + 'px'; 
-            console.log(element.style.fontSize = sizeFontCur.toString() + 'px');
             setCookie('font-size', element.style.fontSize = sizeFontCur.toString() + 'px');
         }
     } 
@@ -57,52 +53,3 @@ window.addEventListener('load', () => {
         changeSizeFonts(acessibilityClass, false);
     });
 })
-
-// const increaseDecreaseFont = () => {
-
-//    // var elementBody = document.querySelector('body');
-//     var elementBody = document.querySelector('body');
-//     var elementBtnIncreaseFont = document.getElementById('increase-font');
-//     var elementBtnDecreaseFont = document.getElementById('decrease-font');
-//     var elementBtnNormalFont = document.getElementById('normal-font');
-//     var cookieFontSize = getCookie('font-size');
-
-//     // Defini o valor do fontSize, caso não exista o cookie, será atribuído 100%
-//     if (cookieFontSize != '') {
-//         var fontSize = parseInt(cookieFontSize);
-//         elementBody.style.fontSize = fontSize + '%';
-//     } else {
-//         var fontSize = 100;
-//     }
-
-
-//     var increaseDecrease = 10;
-
-
-//     // Evento de click para aumentar a fonte
-//     elementBtnIncreaseFont.addEventListener('click', function(event) {
-//         event.preventDefault()
-//         fontSize = fontSize + increaseDecrease;
-//         elementBody.style.fontSize = fontSize + '%';
-//         console.log(event);
-        
-//         setCookie('font-size', fontSize);
-//     });
-
-//     // Evento de click para diminuir a fonte
-//     elementBtnDecreaseFont.addEventListener('click', function(event) {
-//         event.preventDefault()
-//         fontSize = fontSize - increaseDecrease;
-//         elementBody.style.fontSize = fontSize + '%';
-//         console.log(event);
-//         setCookie('font-size', fontSize);
-//     });
-
-//     elementBtnNormalFont.addEventListener('click', function(event){
-//         event.preventDefault()
-//         var fontSize = 100;
-//         fontSize = fontSize;
-//         elementBody.style.fontSize = '';
-//         setCookie('font-size', fontSize);
-//     })
-// }

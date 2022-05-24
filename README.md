@@ -4,7 +4,6 @@
 [![N|Solid](https://www.fortaleza.ce.gov.br/templates/pmf/images/logo-portal-prefeitura-fortaleza.png)](https://nodesource.com/products/nsolid) 
 [![N|Solid](https://dados.fortaleza.ce.gov.br/base/assets/images/logo-citinovaBlack.png)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 barra com efeito padrão para ser colocada a cima do header de qualquer site da PMF, baseado no modelo eMAG governo federal
 
@@ -13,6 +12,12 @@ barra com efeito padrão para ser colocada a cima do header de qualquer site da 
 - redimensionamento de fontes no site
 - links da Prefeitura de fortaleza
 - Vlibras widget para tradução de HTML para Libras
+
+
+## Arquivos necessário
+- Pasta CSS > fonts > vendor & arquivo main.css, 
+- Pasta JS todos os arquivos
+- html vLibras/ acessibilidade / script vLibras
 
 
 ## Âncoras
