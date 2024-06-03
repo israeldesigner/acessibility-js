@@ -1,9 +1,6 @@
 # Biblioteca de acessibilidade
 ## Este documento especifica a aplicação front-end para reuso em toda Prefeitura de Fortaleza com relação a Acessibilidade
 
-[![N|Solid](https://www.fortaleza.ce.gov.br/templates/pmf/images/logo-portal-prefeitura-fortaleza.png)](https://nodesource.com/products/nsolid) 
-[![N|Solid](https://dados.fortaleza.ce.gov.br/base/assets/images/logo-citinovaBlack.png)
-
 
 barra com efeito padrão para ser colocada a cima do header de qualquer site da PMF, baseado no modelo eMAG governo federal
 
